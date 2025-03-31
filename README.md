@@ -10,8 +10,8 @@ Além disso, vamos trabalhar com
 GitFlow ao final do curso e
 Visual Studio Code.
 
-VERSÃO DE ESTUDO DO FELIPE LIMA
-CONFIRA O CONTEÚDO COMPLETO NO YOUTUBE DO TÉO
+ESSA É UMA VERSÃO DE ESTUDOS DO FELIPE LIMA,
+CONFIRA O CONTEÚDO COMPLETO NO CANAL DO YOUTUBE DO TÉO
 (https://www.youtube.com/@teomewhy)
 
 ## Fluxo de trabalho Git local
