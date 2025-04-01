@@ -12,7 +12,9 @@ Visual Studio Code.
 
 ESSA É UMA VERSÃO DE ESTUDOS DO FELIPE LIMA,
 CONFIRA O CONTEÚDO COMPLETO NO CANAL DO YOUTUBE DO TÉO
-(https://www.youtube.com/@teomewhy)
+(https://www.youtube.com/@teomewhy).
+Além do youtube, há também o site (teomewhy.org) para
+ficar por dentro da agenda de conteúdos do Teo.
 
 ## Fluxo de trabalho Git local
 
