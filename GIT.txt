@@ -1,0 +1,50 @@
+COMMIT -> são os checkpoints, como se fosse os os saves de um jogo
+PRINCIPAL -> é como se fosse a main quest
+SECUNDÁRIA -> é como se fosse a side quest (pode ter mais de uma side quest)
+BRANCH -> ramificação (side quest)
+
+COMANDOS SIMPLES DO GIT BASH:
+cd -> muda de diretório
+ls -> lista o que tem dentro do diretório onde estou
+pwd -> caminho absoluto do diretório onde estou
+ls -a -: mostra os arquivos ocultos (. e ..)
+.. -> pasta mae, pasta que está em cima de onde você está. Por exemplo: /c/Users/felip/desktop - nesse caso o .. é a pasta felip
+. -> referência da própria pasta, aponta para ela mesma
+mkdir -> cria uma nova pasta
+cat -> mostra o conteúdo de um arquivo de edição (arquivo binário, arquivo de texto)
+git init . -> transforma a pasta em uma pasta que possa ter um repositório de git (é uma pasta especial que pode versionar os arquivos que estão dentro dela)
+rm -rf .git/ -> exclui a pasta git
+
+COMANDOS GIT
+git init . -> inicia um repositório git
+git status -> mostra como está o diretório
+git add -> adiciona o arquivo que eu quero que vá para o commit
+git commit -m "" -> cria um checkpoint e coloca uma descrição (é necessário colocar uma mensagem dentro das aspas)
+git config --global user.email "" -> todo commit precisa ter uma assinatura e esse comando serve para assinar com seu email (é necessário colocar o email dentro das aspas)
+git config --global user.name "" -> idêntico ao email porém assina com seu nome
+git config --global user.email -> o comando sem as aspas mostra qual email foi utilizado
+git config --global user.name -> o comando sem as aspas mostra qual nome foi utilizado
+git log -> mostra o histórco dos commit (mostra os saves)
+git diff nome_arquivo -> mostra a diferença do estado atual em relação ao estado do último commit
+git reset nome_arquivo -> remove o arquivo que estava pronto para commit (remove do git add)
+git branch -> mostra a branch que estou (mostra todas as branches do seu projeto e em qual estou)
+git checkout -b nome_branch -> criar uma nova branch e move você até ela
+git checkout main -> volta para o main (não precisa do -b pois ele serve para criar uma branch que ainda não existe)
+git merge nome_branch -> mescla (junta) todas as alterações de duas branches. Junta as alterações da branch que estou com as alterações de outra branch desejada
+git branch -D nome_branch -> deleta a branch
+git pull -> envia o repositório local (computador) para o repositório remoto (nuvem/github)
+git push -> é o contrário do pull, ele pega o que está no remoto e traz para o local
+nano -> editor que cria arquivos. Exemplo: nano comandos_git.txt - ctrl O para salvar e ctrl X para sair do editor
+
+FLUXO DE TRABALHO
+
+1 - criar diretório do projeto
+2 - iniciar o git dentro do diretório criado (git init .)
+3 - edita ou criar arquivos
+4 - git status
+5 - git add <nome arquivo>
+6 - git status
+7 - git commit -m "mensagem"
+8 - git status
+9 - git log
+10 - volta para o passo 3
